@@ -57,8 +57,7 @@ class organic:
         t2.title("organic pesticides")
         showbtn = tk.Button(t2, text="pesticides", bg='pink', command=show)
         showbtn.grid(row=10, column=5, pady=4)
-        exittbtn = tk.Button(t2, text="EXIT", bg='blue', command=t2.destroy)
-        exittbtn.grid(row=8, column=5, pady=4)
+
         bybtn=tk.Button(t2,text="Buy",bg="pink",command=choose)
         bybtn.grid(row=12,column=5)
 
